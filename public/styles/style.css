@@ -1,0 +1,142 @@
+
+@import "navbar.css";
+@import "home.css";
+@import "memes.css";
+@import "about.css";
+@import "tokenomics.css";
+@import "howtobuy.css";
+@import "roadmap.css";
+@import "contacts.css";
+@import url('https://fonts.googleapis.com/css2?family=Freckle+Face&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Gloria+Hallelujah&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Philosopher:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+*, *::before, *::after{
+  box-sizing: inherit;
+}
+html{
+  box-sizing: border-box;
+
+}
+*{
+  margin:0;
+  padding:0;
+  border:0;
+  outline:0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Freckle Face", system-ui;
+  font-size: 20px;
+  line-height: 1.42857143;
+  background-color: #fff;
+  overflow: hidden;
+  overflow-y: scroll;
+}
+html,
+body {
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+}
+
+h2, h3, h4, h5, h6 {
+  font-family: "Freckle Face", system-ui;
+  font-weight: 400;
+  font-style: normal;
+  margin-top: 32px;
+}
+.h2, h2 {
+  font-size: 54px;
+}
+
+p {
+  font-size: 18px;
+  line-height: 1.5;
+  margin-bottom: 20px;
+  font-family: "Ubuntu Mono", monospace !important;
+}
+:root {
+    --first-color: #FFC72C;
+    --first-color-alt: hsl(19, 64%, 52%);
+    --font-medium: 500;
+  --theme-primary: #FFD060;
+  --theme-primary-shade: #7B5A0B;
+  --theme-primary-border: #3D3217;
+  --theme-secondary: #6A5F82;
+  --theme-dark: #2b2746;
+  --theme-light: #eff8f7;
+}
+
+a{
+  text-decoration: none;
+  color: inherit;
+  line-height: 1;
+  cursor: pointer;
+}
+
+.button {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    column-gap: .5rem;
+    
+    padding: 1rem 1.5rem;
+   border-radius: 4rem;
+   border: 2px solid #cfbdba;
+   background-color: transparent;
+   z-index: 20;
+   color: #fff;
+   font-weight: var(--font-medium);
+   text-align: center;
+   -webkit-transition: background-color 2s ease-out;
+   }
+   
+   
+   .button i{
+       font-size: 1.5rem;
+       transition: transform .3s;
+   }
+   
+   .button:hover{
+    -webkit-transition: background-color 10s ease-out;
+    background: linear-gradient(90deg, rgba(220,31,255,1) 0%, rgba(0,255,163,1) 100%);
+   }   
+   
+   .button:hover i{
+       transform: translateX(.25rem);
+   }
+
+   .backgroundWrapper {
+    width: 100%;
+    height: 100%;
+    
+    color: #fff;
+    position: absolute;
+  
+}
+
+
+
+#video {
+  width: 100vw;
+  height: 100vh;
+  object-fit: cover;
+  position: fixed;
+  top: 0;
+  overflow: visible;
+  left: 0;
+ }
+
+ .container {
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  padding-right: 12%;
+  padding-left: 12%;
+  background-color: transparent;
+  text-align: center;
+}

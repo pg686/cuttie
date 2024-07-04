@@ -1,0 +1,43 @@
+.roadmapWrapper {
+    padding-right: 12%;
+    padding-left: 12%;
+}
+
+.roadmap {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.5);
+    backdrop-filter: blur(2px);
+    padding: 2rem;
+    text-align: center;
+    border: 2px solid white;
+    border-radius: 20px;
+}
+
+.roadMapItem {
+    display: flex;
+    padding: 16px;
+    border-radius: 16px;
+    background: white;
+    border: 2px solid plum;
+    border-radius: 20px;
+    outline: 2px solid white;
+    margin: 20px auto;
+    max-width: 30%;
+    word-break: break-word;
+}
+
+.roadmapList{
+    display: flex;
+    flex-direction: row;
+    align-self: center;
+    justify-content: center;
+}
+
+.number{
+    padding: 10px;
+    color: rgba(220,31,255,1);
+    border: 2px solid black;    
+}

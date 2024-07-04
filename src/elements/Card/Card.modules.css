@@ -1,0 +1,129 @@
+
+.stepItem {
+    display: flex;
+    padding: 16px;
+    border-radius: 16px;
+    background: linear-gradient(90deg, rgba(220,31,255,1) 0%, rgba(0,255,163,1) 100%);
+    outline: 2px solid white;
+    margin: 20px auto;
+    max-width: 60%;
+    word-break: break-word;
+}
+.stepItem:nth-child(1),
+.stepItem:nth-child(3) {
+    left: -250px;
+    position: relative;
+}
+.stepItem:nth-child(2),
+.stepItem:nth-child(4) {
+    left: 250px;
+    position: relative;
+}
+.stepTitle{
+    
+  margin-bottom: 24px;
+}
+
+.stepImage {
+    position: relative;
+    min-height: 1px;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    display: flex;
+}
+
+.stepContent {
+    position: relative;
+    flex-grow: 1;
+    min-height: 1px;
+    padding-right: 15px;
+    width: fit-content;
+    display: inline-block;
+    padding-left: 15px;
+    
+}
+.stepImg {
+    height: auto;
+    width: 70%;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 6px;
+    display: flex;
+    background: rgba(0, 0, 0, 0.5);
+    backdrop-filter: blur(1px);
+    border: 1px solid transparent;
+    border-radius: 20px;
+}
+.stepContent p  {
+    font-size: 18px;
+}
+.stepContent h3 {
+    margin-top: 10px;
+    margin-bottom: 4px;
+}
+
+@media (max-width: 1800px) {
+
+    .stepItem:nth-child(1),
+.stepItem:nth-child(3) {
+    left: -100px;
+    position: relative;
+}
+.stepItem:nth-child(2),
+.stepItem:nth-child(4) {
+    left: 100px;
+    position: relative;
+}
+}
+@media (max-width: 1060px) {
+
+    .stepItem:nth-child(1),
+.stepItem:nth-child(3) {
+    left: -70px;
+    position: relative;
+}
+.stepItem:nth-child(2),
+.stepItem:nth-child(4) {
+    left: 70px;
+    position: relative;
+}
+}
+@media (max-width: 700px) {
+    .stepItem {
+        flex-direction: column;
+    }
+    .stepItem:nth-child(1),
+.stepItem:nth-child(3) {
+    left: 0px;
+    position: relative;
+}
+.stepItem:nth-child(2),
+.stepItem:nth-child(4) {
+    left: 0px;
+    position: relative;
+}
+}
+
+
+
+
+@media (max-width: 1300px) {
+    .stepItem {
+        max-width: 90%;
+    }
+}
+@media (max-width: 1800px) {
+    .stepItem {
+        max-width: 80%;
+    }
+}
+
+
+@media (max-width: 400px) {
+    .stepItem {
+        max-width: 100%;
+        padding: 6px 0px;
+    }
+}

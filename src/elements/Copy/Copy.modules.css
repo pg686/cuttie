@@ -1,0 +1,45 @@
+button {
+
+    padding: 10px;
+    margin: 3rem 0 2rem 0;
+    transition: opacity 400ms ease-out;
+    display: flex;
+    word-break: break-all;
+    flex-wrap: wrap;
+    cursor: pointer;
+    font-size: 20px;
+    border-radius: 16px;
+    text-align: center;
+    font-weight: bold;
+    border: 2px solid #ffffff;
+    color: #ffffff;
+    background-color: #15141f;
+    transition: 400ms ease-in-out;
+  }
+  @media (max-width: 700px) {
+    button {
+      font-size: 10px;
+    }
+
+  }
+  .tooltipText{
+      font-size: 13px;
+      line-height: 1.4;
+      text-align: left;
+  }
+  
+  button:hover {
+      transform: translateY(-1px);
+      background-color: #ffffff#ffffff;
+      box-shadow: none;
+      transform: scale(1.05);
+      transition: 400ms ease-in-out;
+  
+   }
+
+   .copy {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+   }
