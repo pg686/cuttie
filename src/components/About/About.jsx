@@ -1,16 +1,13 @@
 import React, { useRef } from 'react'
-import { Tweet } from 'react-twitter-widgets'
-import { eagerLoadTwitterLibrary } from "react-twitter-widgets";
+
 import { useIsVisible } from 'react-is-visible'
-import Memes from '../Memes/Memes.jsx'
 const About = () => {
   const ref = useRef()
   const isVisible = useIsVisible(ref)
-console.log(isVisible, "isVisible")
   return (
         <div className="about">  
          <div className="tweetPost">
-        <Tweet ref={ref} tweetId="1441670584190992385"/>
+         <a href='https://x.com/thegallowboob/status/1441670584190992385'><img src="/images/tweeter.png" alt="" className="tweetImg" /></a>
         </div>
         <div className='aboutContainer'>
         <div className='aboutSection'>

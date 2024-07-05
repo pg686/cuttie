@@ -2,18 +2,21 @@ import React from 'react';
 import {useRef, useState, useEffect } from 'react';
 import { motion } from "framer-motion";
 import {FaBars, FaTimes } from 'react-icons/fa';
+import Slider from './Slider.jsx';
 import  {Link} from "react-scroll";
 const Navbar = () => {
     const navRef = useRef();
     const headerRef = useRef();
 
     const [top, setTop] = useState(true);
+    const [isMobile, setIsMobile] = useState(false)
     const [showNav, setShowNav] = useState(false)
 
     useEffect(() => {
       const scrollHandler = () => {
         setTop(window.pageYOffset <= 50 || window.innerWidth <= 1100)
     };
+    
     window.addEventListener('scroll', scrollHandler);
     
     scrollHandler(); 
@@ -31,9 +34,23 @@ const Navbar = () => {
       setTimeout(() => {
         setShowNav(true);
       }, 2000);
-     
-      
     }, []);
+    useEffect(() => {
+      const resizeHandler = () => {
+        setIsMobile(window.innerWidth <= 1100)
+    };
+    
+    window.addEventListener('resize', resizeHandler);
+    
+    resizeHandler(); 
+
+
+    
+    return () => {
+        window.removeEventListener('resize', resizeHandler);
+    }
+
+    }, [isMobile]);
     useEffect(() => {
       if(showNav){
 
@@ -61,48 +78,8 @@ const Navbar = () => {
     };
   return (
    <header className={top ? "header" :  "header blurry"} ref={headerRef}>
-    <div className='slayBanner'>
-      <div className='slaySlide'>
-<span>$ugli</span>
-<span>★</span>
-<span>$ugli</span>
-<span>★</span>
-<span>$ugli</span>
-<span>★</span>
-<span>$ugli</span>
-<span>★</span>
-<span>$ugli</span>
-<span>★</span>
-<span>$ugli</span>
-<span>★</span>
-<span>$ugli</span>
-<span>★</span>
-<span>$ugli</span>
-<span>★</span>
-<span>$ugli</span>
-<span>★</span>
-      </div>
-      <div className='slaySlide'>
-<span>$ugli</span>
-<span>★</span>
-<span>$ugli</span>
-<span>★</span>
-<span>$ugli</span>
-<span>★</span>
-<span>$ugli</span>
-<span>★</span>
-<span>$ugli</span>
-<span>★</span>
-<span>$ugli</span>
-<span>★</span>
-<span>$ugli</span>
-<span>★</span>
-<span>$ugli</span>
-<span>★</span>
-<span>$ugli</span>
-<span>★</span>
-      </div>
-    </div>
+  {!isMobile && <Slider  memesArr={['$ugli', '$ugli', '$ugli','$ugli', '$ugli', '$ugli', '$ugli', '$ugli', '$ugli', '$ugli', '$ugli', '$ugli']} /> }
+  {isMobile && <Slider  memesArr={['$ugli', '$ugli', '$ugli','$ugli', '$ugli']} />}
     <div className="navContainer">
    <Link className="logoWrapper"  onClick={showNavbar}   spy={true} smooth={true} offset={0} duration={500} to="home"> <img src="/images/logo.png" className="logo"  /> <span className="logoText"></span></Link>
    <nav className='navbar' ref={navRef}>

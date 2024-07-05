@@ -216,7 +216,7 @@ nav ul li {
 .slayBanner{
     overflow: hidden;
     width: 100%;
-    padding: 6px 12%;
+    padding: 6px 0;
     background-color: black;
     color: red;
     white-space: nowrap;
@@ -231,4 +231,3 @@ nav ul li {
     height: 50px;
     margin: 0 20px;
 }
-

@@ -6,6 +6,16 @@
     padding-left: 12%;
     padding-right: 12%;
     position: relative;
+    
+}
+
+.tweetImg {
+    cursor: pointer;
+    border: 1px solid transparent;
+    border-radius: 15px;
+    
+    display: flex;
+    justify-content: center;
 }
 @media (max-width: 600px) {
     .about{
@@ -15,13 +25,16 @@
         padding: 0 2px;
     }
     .tweetPost {
-        width: 70% !important;
-        padding: 1rem !important;
-        height: auto !important;
-       display: flex !important;
-       margin: 0 auto !important;
-       justify-content: center !important;
-       align-items: center !important;
+        width: 100%;
+        padding: 1rem;
+        height: auto;
+       display: flex;
+       margin: 0 auto;
+       justify-content: center;
+       align-items: center;
+    }
+    .tweetImg { 
+      width: 100%;
     }
 }
 .aboutSection {
