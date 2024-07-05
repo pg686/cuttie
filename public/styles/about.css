@@ -5,6 +5,7 @@
     padding-top: 5rem;
     padding-left: 12%;
     padding-right: 12%;
+    position: relative;
 }
 @media (max-width: 600px) {
     .about{
