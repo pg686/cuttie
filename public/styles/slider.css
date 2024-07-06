@@ -19,7 +19,7 @@
 @media (max-width: 600px) { 
     .sliderGroup {
         flex-shrink: 1;
-
+        animation: scrollX 5s linear infinite;
     }
 }
 .slider {
