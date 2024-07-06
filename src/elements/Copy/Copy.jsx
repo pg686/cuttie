@@ -6,7 +6,7 @@ import { FaRegCopy } from "react-icons/fa";
 import { motion, useAnimation } from "framer-motion";
 
 const Copy = ({animation}) => {
-    const value = 'ECutGg12PNhqhkvnH1s1FcuXgCDzKDNhSf5aLtANioR7';
+    const value = 'FaPMvVNbD441DXUQ7iqoftnp7VrEw5aQ7o3Xp2xDpump';
 
   return (
     <CopyToClipboard text={value} className="tooltip">
