@@ -42,7 +42,7 @@ header {
     left: 100%;
 }
 .navLinks:hover {
-    color: plum;
+    color: #FF8CD3;
     transition: 0.5s ease-out;
 }
 header .nav-btn {
@@ -148,7 +148,7 @@ nav ul li {
 }
 .navLinks, .logoText {
     color: var(--theme-light);
-    text-shadow: -1px -1px 0 #7B5A0B;
+    text-shadow: 1px 1px 2px black;
     font-weight: bold;
     font-family: "Freckle Face", system-ui;
     display: flex;
@@ -167,7 +167,7 @@ nav ul li {
 
 .navLinks.active {
     transform: scale(1.25);
-    color: plum;
+    color: #FF8CD3;
     transition: 0.5s ease-out;
 }
 

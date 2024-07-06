@@ -6,7 +6,6 @@
 .memes {
     text-align: center;
 padding-top: 3rem;
-padding-bottom: 7rem;
 z-index: 10;
 position: relative;
 
@@ -61,4 +60,9 @@ border-radius: 15px;
        
         columns: 1;
     }
+}
+
+.memeTitle {
+    text-shadow: 1px 1px 2px black;
+    margin-bottom: 6rem;
 }

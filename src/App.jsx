@@ -15,9 +15,8 @@ function App() {
   return (
     <div className="main">
 
-<video autoPlay loop muted id="video">
-          <source src="/images/background.mp4" type = 'video/mp4'/>
-          </video>
+          <img src="/images/background.png" className='imgBackground'/>
+          
           <div className="ugliObjectsWrapper">
                <img src="/images/logo.png" alt="" className="ugliObjectImg" />
                <img src="/images/logo.png" alt="" className="ugliObjectImg" />

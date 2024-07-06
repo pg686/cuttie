@@ -86,13 +86,15 @@ a{
     
     padding: 1rem 1.5rem;
    border-radius: 4rem;
-   border: 2px solid #cfbdba;
+   border: 2px solid white;
    background-color: transparent;
    z-index: 20;
    color: #fff;
+   background-color: #FF8CD3;
    font-weight: var(--font-medium);
    text-align: center;
-   -webkit-transition: background-color 2s ease-out;
+   text-shadow: 1px 1px 2px black;
+   transition: background-color 2s ease-out;
    }
    
    
@@ -102,7 +104,7 @@ a{
    }
    
    .button:hover{
-    -webkit-transition: background-color 10s ease-out;
+    transition: background-color 10s ease-out;
     background: linear-gradient(90deg, rgba(220,31,255,1) 0%, rgba(0,255,163,1) 100%);
    }   
    
@@ -113,7 +115,6 @@ a{
    .backgroundWrapper {
     width: 100%;
     height: 100%;
-    
     color: #fff;
     position: absolute;
   
@@ -121,7 +122,7 @@ a{
 
 
 
-#video {
+.imgBackground {
   width: 100vw;
   height: 100vh;
   object-fit: cover;

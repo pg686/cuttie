@@ -21,7 +21,7 @@ const Home = ({wagmi, toggleWagmi}) => {
             ease: "easeInOut",   
             repeat: Infinity,   
             repeatDelay: 0        
-          }}>born to $slay</motion.h2>
+          }}>$ugli</motion.h2>
  
           </div>
         <div className='wojakSection'>

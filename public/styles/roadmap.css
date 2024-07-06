@@ -20,25 +20,27 @@
     display: flex;
     padding: 16px;
     border-radius: 16px;
-    background: linear-gradient(90deg, rgba(220,31,255,1) 0%, rgba(0,255,163,1) 100%);
+    background: #FF8CD3;
     outline: 2px solid white;
-    margin: 20px 0;
+    margin: 20px auto;
     width: 30%;
     word-break: break-word;
-    justify-content: space-between;
+    text-align: center;
+    justify-content: center;
     height: auto;
 }
 
 .roadmapList{
     display: flex;
     flex-direction: row;
-    width: 100%;
+    width: 80%;
     align-self: center;
     justify-content: space-between;
 }
-@media (max-width: 600px) {
+@media (max-width: 1000px) {
     .roadmapList{
         flex-direction: column;
+        width: 100%;
     }
     .roadMapItem { 
         width: 80%;
@@ -46,14 +48,25 @@
 
 }
 .number{
-    height: 100px;
+    height: 50px;
+    width: 50px;
     align-items: center;
     justify-content: center;
     flex-direction: column;
     padding: 6px;
+    flex: 1;
+    text-align: center;
     display: flex;
     background: rgba(0, 0, 0, 0.5);
     backdrop-filter: blur(1px);
-    border: 1px solid white;
+    border: 2px solid white;
     border-radius: 20px;
+}
+
+.roadmapInfo {
+    flex: 5;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 20px;
 }
