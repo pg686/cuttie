@@ -1,4 +1,5 @@
 import React from 'react'
+import { motion } from "framer-motion";
 const Memes = ({memesArr, isReversed}) => {
 
   return (
@@ -6,7 +7,28 @@ const Memes = ({memesArr, isReversed}) => {
         <div className='memeWrapper'>
           <div className="gridContainer">
 
-{memesArr.map(meme =><div className="box"><img src={`/images/${meme}.jpg`} loading='lazy' fetchPriority='high' decoding='async' className='sliderImg'/></div>)}
+{memesArr.map(meme =><motion.div   
+  viewport={ { once: true }}
+  whileHover={{ scale: 0.94, transition: {
+    duration: 0.2,
+    ease: "easeOut",
+    repeat: 0,
+    repeatDelay: 0,
+    delay: 0
+ } }}
+  whileInView={{
+                y: -30,
+                
+                transition: {
+                   duration: 0.2,
+                   ease: "easeOut",
+                   repeat: 0,
+                   repeatDelay: 0,
+                   delay: 0
+                }
+            }} className="box">{meme.type === 'img' ? <img src={`/images/${meme.data}.jpg`} loading='lazy' fetchPriority='high' decoding='async' className='sliderImg'/> : <video autoPlay loop muted>
+          <source src={`/images/${meme.data}.gif.mp4`} type = 'video/mp4'/>
+          </video>}</motion.div>)}
 
         </div>
         </div>

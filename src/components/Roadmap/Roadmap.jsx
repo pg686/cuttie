@@ -8,7 +8,7 @@ const Roadmap = () => {
         <div className="roadmapList">
         <div className="roadMapItem">
             <div className="number">
-<p>1.</p>
+1
             </div>
             <div className="roadmapInfo">
 Slay the jeets
@@ -17,15 +17,15 @@ Slay the jeets
 
         <div className="roadMapItem">
             <div className="number">
-2.
+2
             </div>
             <div className="roadmapInfo">
-Slay the jeets
+Slay the jeets 
             </div>
         </div>
         <div className="roadMapItem">
             <div className="number">
-3.
+3
             </div>
             <div className="roadmapInfo">
 Slay the jeets

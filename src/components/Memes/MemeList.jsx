@@ -5,7 +5,7 @@ const MemeList = () => {
   return (
     <div className='memes'>
       <h2 className="memeTitle">Memes</h2>
-        <Memes memesArr={['1', '2', '3', '4','5', '6','7', '8', '9', '10']}/>
+        <Memes memesArr={[{data: '1', type: 'img' }, {data: '2', type: 'img' }, {data: '3', type: 'img' }, {data: '4', type: 'img' },    {data: 'animation5', type: 'gif' }, {data: '5', type: 'img' }, {data: '6', type: 'img' }, {data: 'animation3', type: 'gif' },{data: '7', type: 'img' }, {data: '8', type: 'img' }, {data: '9', type: 'img' }, {data: '10', type: 'img' },  {data: 'animation1', type: 'gif' },  {data: 'animation2', type: 'gif' }]}/>
         
     </div>
   )
