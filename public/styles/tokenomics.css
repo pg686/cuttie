@@ -21,12 +21,16 @@
     .tokenomicsItems {
         flex-direction: column;
     }
+    .tokenomicsItem {
+        margin-bottom: 20px;
+    }
 }
 
 .tokenomicsImg {
     width: 50%;
     border: 8px solid #FF8CD3;
     border-radius: 200px;
+    box-shadow: 6px 6px 6px 0px rgba(0,0,0,0.3);
 }
 
 .tokenomicsItem {
@@ -40,5 +44,12 @@
   margin-bottom: 2rem;
   text-overflow: ellipsis;
   word-break: break-word;
+  text-shadow: 1px 1px 2px black;
     
+}
+
+.tokenomicsInfo h3 {
+ font-size: 30px;
+ text-shadow: 1px 1px 2px black;
+ 
 }
