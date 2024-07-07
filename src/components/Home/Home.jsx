@@ -14,14 +14,14 @@ const Home = ({wagmi, toggleWagmi}) => {
           <div>
           <motion.h2 animate={{ 
             
-            y: [0, -30, 0]      
+            y: [0, -20, 0]      
           }}
           transition={{
             duration: 5,       
             ease: "easeInOut",   
             repeat: Infinity,   
             repeatDelay: 0        
-          }}>$ugli</motion.h2>
+          }}>$UGLI</motion.h2>
  
           </div>
         <div className='wojakSection'>
