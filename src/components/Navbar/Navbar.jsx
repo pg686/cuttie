@@ -84,11 +84,11 @@ const Navbar = () => {
    <Link className="logoWrapper"  onClick={showNavbar}   spy={true} smooth={true} offset={0} duration={500} to="home"> <img src="/images/logo.png" className="logo"  /> <span className="logoText"></span></Link>
    <nav className='navbar' ref={navRef}>
    <motion.ul>
-    <motion.li variants={navButton} animate="visible" className="strong-hover-shake"><Link  onClick={showNavbar}  activeClass="active" className="page-scroll navLinks" offset={0} spy={true} smooth={true} style={{'--i':0}} duration={200} to="home">home</Link></motion.li>
-    <motion.li variants={navButton} animate="visible" className="strong-hover-shake"><Link  onClick={showNavbar}  activeClass="active" className="page-scroll navLinks" offset={0} spy={true} smooth={true} style={{'--i':0}} duration={200} to="about">about</Link></motion.li>
+    <motion.li variants={navButton} animate="visible" className="strong-hover-shake"><Link  onClick={showNavbar}  activeClass="active" className="page-scroll navLinks" offset={-40} spy={true} smooth={true} style={{'--i':0}} duration={200} to="home">home</Link></motion.li>
+    <motion.li variants={navButton} animate="visible" className="strong-hover-shake"><Link  onClick={showNavbar}  activeClass="active" className="page-scroll navLinks" offset={-30} spy={true} smooth={true} style={{'--i':0}} duration={200} to="about">about</Link></motion.li>
     <motion.li variants={navButton} animate="visible" className="strong-hover-shake"><Link  onClick={showNavbar}  activeClass="active" className="page-scroll navLinks" offset={0} spy={true} smooth={true} style={{'--i':0}} duration={200} to="memes">memes</Link></motion.li>
     <motion.li variants={navButton} animate="visible" className="strong-hover-shake"><Link  onClick={showNavbar}  activeClass="active" className="page-scroll navLinks" offset={0} spy={true} smooth={true} style={{'--i':0}} duration={200} to="tokenomics">tokenomics</Link></motion.li>
-    <motion.li variants={navButton} animate="visible" className="strong-hover-shake"><Link  onClick={showNavbar}  activeClass="active" className="page-scroll navLinks" offset={-80} spy={true} smooth={true} style={{'--i':0}} duration={200}>roadmap</Link></motion.li>
+    <motion.li variants={navButton} animate="visible" className="strong-hover-shake"><Link  onClick={showNavbar}  activeClass="active" className="page-scroll navLinks" offset={window.innerWidth <= 600 ? -50 : -150} spy={true} smooth={true} style={{'--i':0}} duration={200} to="roadmap">roadmap</Link></motion.li>
    </motion.ul>
    </nav>
    <div className="buySlay">

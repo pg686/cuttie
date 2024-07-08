@@ -4,7 +4,6 @@
     justify-content: center;
     align-items: center;
     padding-top: 5rem;
-    padding-bottom: 5rem;
     position: relative;
 }
 
@@ -19,10 +18,20 @@
 @media (max-width: 600px) {
 
     .tokenomicsItems {
-        flex-direction: column;
+       flex-direction: column;
     }
     .tokenomicsItem {
-        margin-bottom: 20px;
+       margin-bottom: 40px;
+    }
+    .tokenomicsInfo h3 {
+       margin-top: 15px
+    }
+    .tokenomics {
+        padding-top: 0;
+        margin: 15px 0;
+    }
+    .tokenomics h2 {
+        font-size: 44px;
     }
 }
 

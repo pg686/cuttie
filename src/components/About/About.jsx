@@ -38,7 +38,9 @@ const About = () => {
         <div className='aboutSection'>
             <motion.h2>About</motion.h2>
         <div className="aboutInfo">
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+        <p className="firstLine">Sometimes nightmares do come true. </p>
+        <p className='secondLine'>Meet Ugli, the dog that will steal your wife, eat your kids, and proceed to father superior kids while you thank him along the way</p>
+        <p className='thirdLine'>Rumor has it if you stare too long at this dog an orphan dies and Bruno Mars writes a new song.  Not sure which is worse.</p>
         </div>
         </div>
         </motion.div>

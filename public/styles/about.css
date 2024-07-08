@@ -1,12 +1,26 @@
 .about{
     display: flex;
+    font-family: "Freckle Face", system-ui;
     justify-content: space-between;
     align-items: center;
-    padding-top: 5rem;
+    padding-top: 8rem;
     padding-left: 12%;
     padding-right: 12%;
     position: relative;
     
+}
+.firstLine {
+ font-weight: bold;
+ font-size: 30px;
+ text-shadow: 1px 1px 2px #FF8CD3
+}
+.secondLine {
+    font-size: 20px;
+    font-weight: bold;
+    text-shadow: 1px 1px 2px black
+   }
+.thirdLine {
+    text-shadow: 1px 1px 2px black
 }
 
 .tweetImg {
@@ -38,6 +52,7 @@
     }
 }
 .aboutSection {
+    font-family: "Freckle Face", system-ui !important;
     display: flex;
     justify-content: space-between;
     flex-direction: column;
@@ -74,9 +89,9 @@ flex-direction: column;
 .aboutInfo{
     flex: 1;
     overflow: hidden;
+    flex-direction: column;
     display: flex;
     align-items: center;
-    word-break: break-all;
     justify-content: space-between;
 }
 .tweetPost {
