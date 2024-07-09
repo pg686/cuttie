@@ -92,7 +92,7 @@ const Navbar = () => {
    </motion.ul>
    </nav>
    <div className="buySlay">
-   <a href="https://jup.ag/swap/SOL-ECutGg12PNhqhkvnH1s1FcuXgCDzKDNhSf5aLtANioR7" className="button">Buy $UGLI</a>
+   <a href="https://pump.fun/FaPMvVNbD441DXUQ7iqoftnp7VrEw5aQ7o3Xp2xDpump" className="button">Buy $UGLI</a>
 
    <button className='nav-btn' onClick={showNavbar}>
    <FaBars />

@@ -53,6 +53,9 @@
     .tweetImg { 
       width: 100%;
     }
+    .testimonial {
+        flex-wrap: wrap !important;
+    }
 }
 .aboutSection {
     position: relative;
@@ -113,19 +116,20 @@ flex-direction: column;
 
 .testimonials{
     display: flex;
+    columns: 2;
     flex-direction: column;
-    flex-wrap: wrap;
+    flex-wrap: nowrap;
 justify-content: space-between;
 align-items: center;
 
 }
 .testimonial {
     display: flex;
-    flex-wrap: wrap;
     gap: 20px;
 justify-content: center;
 align-items: center;
 text-align: center;
+flex-wrap: nowrap;
 word-wrap: break-all;
 font-style: italic;
 text-overflow: ellipsis;
