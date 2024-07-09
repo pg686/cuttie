@@ -81,7 +81,7 @@ const Navbar = () => {
   {!isMobile && <Slider  memesArr={['$ugli', '$ugli', '$ugli','$ugli', '$ugli', '$ugli', '$ugli', '$ugli', '$ugli', '$ugli', '$ugli', '$ugli']} /> }
   {isMobile && <Slider  memesArr={['$ugli', '$ugli', '$ugli','$ugli', '$ugli']} />}
     <div className="navContainer">
-   <Link className="logoWrapper"  onClick={showNavbar}   spy={true} smooth={true} offset={0} duration={500} to="home"> <img src="./cuttie/images/logo.png" className="logo"  /> <span className="logoText"></span></Link>
+   <Link className="logoWrapper"  onClick={showNavbar}   spy={true} smooth={true} offset={0} duration={500} to="home"> <img src="https://pg686.github.io/cuttie/images/logo.png" className="logo"  /> <span className="logoText"></span></Link>
    <nav className='navbar' ref={navRef}>
    <motion.ul>
     <motion.li variants={navButton} animate="visible" className="strong-hover-shake"><Link  onClick={showNavbar}  activeClass="active" className="page-scroll navLinks" offset={-40} spy={true} smooth={true} style={{'--i':0}} duration={200} to="home">home</Link></motion.li>

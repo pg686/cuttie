@@ -36,7 +36,7 @@ const Home = ({wagmi, toggleWagmi}) => {
                          ease: "easeInOut",
                          delay: 0
                      }}}
-     > <img src="./cuttie/images/ugliDog.png" className="homeImg"   /></motion.span>
+     > <img src="https://pg686.github.io/cuttie/images/ugliDog.png" className="homeImg"   /></motion.span>
 
         </div>
         <div className='homeInfo'>       
