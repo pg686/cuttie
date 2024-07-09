@@ -64,6 +64,8 @@ nav{
     
 }
 
+
+
 @media (max-width: 1100px) {
     header .nav-btn {
         display: block;
@@ -131,6 +133,13 @@ nav{
         }
 
 }
+@media (max-width: 300px) {
+    .buySlay .button {
+        padding: 6px 1rem;
+        font-size: 18px;
+        margin-bottom: 10px;
+      }
+  }
 .logo {
     height: 70px;
     margin-right: 6px;
