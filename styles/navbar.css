@@ -1,0 +1,244 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Slackey&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Philosopher:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+header {
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+   
+    z-index: 100;
+    background-color: transparent;
+    transition: transform 2s ease, top 2s ease, background-color 2s ease;
+
+}
+.navContainer{
+    width: 100%;
+    padding: 2px 12%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    align-self: center;
+}
+
+.header::before {
+    content: '';
+    position: absolute;
+
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    
+}
+
+.blurry {
+    background: rgba(0, 0, 0, 0.5);
+    backdrop-filter: blur(2px);
+}
+
+.header:hover::after{
+    left: 100%;
+}
+.navLinks:hover {
+    color: #FF8CD3;
+    transition: 0.5s ease-out;
+}
+header .nav-btn {
+    padding: 5px;
+    cursor: pointer;
+    background: transparent;
+    border: none;
+    outline: none;
+    color: white;
+    display: none;
+    opacity: 0;
+    margin: auto;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+
+
+@media (max-width: 1100px) {
+    header .nav-btn {
+        display: block;
+        opacity: 1;
+    }
+
+  header {
+   height: 110px;
+  }
+    header nav {
+        position: absolute;
+        top: 100%;
+        left: 0;
+        width: 100%;
+        height: 18rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        background: rgba(0, 0, 0, 0.5);
+        backdrop-filter: blur(4px);
+        gap: 10px;
+        transition: 1s ease-out;
+        transform: translateY(-100vh);
+        transform-origin: 0 0;
+        z-index: -2;
+       }
+
+       .navContainer {
+        height: 70%;
+       }
+       .buySlay .button {
+        padding: 10px 1rem;
+        font-size: 20px;
+        margin-bottom: 10px;
+      }
+       .navLinks {
+        margin: 10px;
+       }
+       
+    
+       .header::before {
+        background: rgba(0, 0, 0, 0.5);
+        backdrop-filter: blur(4px);
+       }
+     
+       .navbar a {
+           display: flex;
+           align-items: center;
+           justify-content: center;
+           flex-direction: row;
+           opacity: 1;
+          }
+          .navLinks {
+                border: 0px;
+           
+          }
+     
+          header .responsive_nav {
+           transform: none;
+          }
+          .logo {
+            height: 50px !important;
+            margin-right: 6px;
+        }
+
+}
+@media (max-width: 300px) {
+    .buySlay .button {
+        padding: 6px 1rem;
+        font-size: 18px;
+        margin-bottom: 10px;
+      }
+  }
+.logo {
+    height: 70px;
+    margin-right: 6px;
+    margin-bottom: 20px;
+}
+@media (min-width: 1100px) {
+    nav ul li {
+        display: inline-block;
+    }
+}
+nav ul li {
+    list-style: none;
+    margin: 0px 15px;
+    font-size: 30px;
+}
+
+.logoText {
+   text-align: center;
+}
+.navLinks, .logoText {
+    color: var(--theme-light);
+    text-shadow: 1px 1px 2px black;
+    font-weight: bold;
+    font-family: "Freckle Face", system-ui;
+    display: flex;
+
+}
+.navLinks {
+    padding: 4px 8px;
+}
+
+.logoWrapper {
+    display: flex; 
+    align-items: center; 
+}
+
+.navLinks.active {
+    transform: scale(1.25);
+    color: #FF8CD3;
+    transition: 0.5s ease-out;
+}
+
+.social-link {
+    --width: 48px;
+    width: var(--width);
+    height: var(--width);
+    border: 2px solid #fff;
+    border-radius: 100%;
+    color: #fff;
+    box-shadow: 0 4px 4px #00000040;
+    align-items: center;
+    justify-content: center;
+    align-self: center;
+    display: flex;
+}
+.navSocials {
+    align-items: center;
+    justify-content: center;
+    align-self: center;
+    display: flex;
+}
+
+.buySlay{
+    align-items: center;
+    justify-content: center;
+    align-self: center;
+    display: flex;  
+}
+.navInfo {
+    align-items: flex-end;
+    justify-content: flex-end;
+    align-self: flex-end;
+    display: flex;  
+}
+
+
+@keyframes slide {
+    from {
+        transform: translateX(0);
+    }
+    to{
+        transform: translateX(-100%);
+    }
+}
+.slayBanner{
+    overflow: hidden;
+    width: 100%;
+    padding: 6px 0;
+    background-color: black;
+    color: red;
+    white-space: nowrap;
+}
+
+.slaySlide {
+    display: inline-block;
+    animation: 20s slide infinite linear;
+}
+
+.slaySlide span {
+    height: 50px;
+    margin: 0 20px;
+}

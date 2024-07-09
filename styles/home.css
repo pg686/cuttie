@@ -1,0 +1,55 @@
+
+
+.homeImg {
+    height: auto;
+    width: 100%;
+    padding: 15px;
+    background: rgba(0, 0, 0, 0.5);
+    backdrop-filter: blur(1px);
+    border: 1px solid transparent;
+    border-radius: 20px;
+}
+.homeImgSpan{
+    flex: 1;
+}
+
+.wojakSection{
+    display: flex;
+    flex: 4;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-direction: column;
+}
+
+.homeInfo {
+    display: flex;
+    flex: 3;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+    text-align: center;
+}
+
+.homeButtons {
+    margin-top: 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex: 2;
+
+}
+.homeContainer {
+     padding-top: 8rem;
+}
+.homeContainer h2 {
+    font-size: 4rem;
+    position: relative;
+    z-index: 10;
+    color: #FF8CD3;
+    text-shadow: 1px 1px 2px black;
+}
+.App {
+    width: 100%;
+    height: 100%;
+}
