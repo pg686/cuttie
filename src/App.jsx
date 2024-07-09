@@ -12,19 +12,19 @@ function App({url}) {
   useScript(url);
   return (
     <div className="main">
-          <img src="./cuttie/images/background.png" className='imgBackground'/>
+          <img src="https://pg686.github.io/cuttie/images/background.png" className='imgBackground'/>
           <canvas id='canvas' />
           <div className="ugliObjectsWrapper">
-               <img src="./cuttie/images/logo.png" alt="" className="ugliObjectImg" />
-               <img src="./cuttie/images/logo.png" alt="" className="ugliObjectImg" />
-               <img src="./cuttie/images/logo.png" alt="" className="ugliObjectImg" />
-               <img src="./cuttie/images/logo.png" alt="" className="ugliObjectImg" />
-               <img src="./cuttie/images/logo.png" alt="" className="ugliObjectImg" />
-               <img src="./cuttie/images/logo.png" alt="" className="ugliObjectImg" />
-               <img src="./cuttie/images/logo.png" alt="" className="ugliObjectImg" />
-               <img src="./cuttie/images/logo.png" alt="" className="ugliObjectImg" />
-               <img src="./cuttie/images/logo.png" alt="" className="ugliObjectImg" />
-               <img src="./cuttie/images/logo.png" alt="" className="ugliObjectImg" />
+               <img src="https://pg686.github.io/cuttie/images/logo.png" alt="" className="ugliObjectImg" />
+               <img src="https://pg686.github.io/cuttie/images/logo.png" alt="" className="ugliObjectImg" />
+               <img src="https://pg686.github.io/cuttie/images/logo.png" alt="" className="ugliObjectImg" />
+               <img src="https://pg686.github.io/cuttie/images/logo.png" alt="" className="ugliObjectImg" />
+               <img src="https://pg686.github.io/cuttie/images/logo.png" alt="" className="ugliObjectImg" />
+               <img src="https://pg686.github.io/cuttie/images/logo.png" alt="" className="ugliObjectImg" />
+               <img src="https://pg686.github.io/cuttie/images/logo.png" alt="" className="ugliObjectImg" />
+               <img src="https://pg686.github.io/cuttie/images/logo.png" alt="" className="ugliObjectImg" />
+               <img src="https://pg686.github.io/cuttie/images/logo.png" alt="" className="ugliObjectImg" />
+               <img src="https://pg686.github.io/cuttie/images/logo.png" alt="" className="ugliObjectImg" />
             </div>
           <div className="content">
           <div className='backgroundWrapper'>
