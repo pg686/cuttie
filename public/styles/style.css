@@ -120,8 +120,6 @@ a{
   
 }
 
-
-
 .imgBackground {
   width: 100vw;
   height: 100vh;
@@ -131,6 +129,18 @@ a{
   overflow: visible;
   left: 0;
  }
+
+#canvas {
+  width: 100vw;
+  height: 100vh;
+  object-fit: cover !important;
+  position: fixed !important;
+  top: 0;
+  overflow: visible !important;
+  left: 0;
+  z-index: 1;
+ 
+}
 
  .container {
   align-items: center;
@@ -241,3 +251,4 @@ animation: animate 10s linear infinite;
     transform: translateY(200vh) rotate(-360deg);
   }
 }
+

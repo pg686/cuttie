@@ -16,6 +16,7 @@ button {
     background-color: #15141f;
     transition: 400ms ease-in-out;
     position: relative;
+    z-index: 10;
   }
   @media (max-width: 700px) {
     button {

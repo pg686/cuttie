@@ -30,7 +30,7 @@ const About = () => {
     }
   }
   return (
-        <div className="about">  
+        <div className="about"> 
          <motion.div  viewport={ { once: true }} variants={window.innerWidth <= 1100 ? mobileButtonVariantLeft : pcButtonVariantLeft} initial="hidden" whileInView="visible" className="tweetPost">
          <a href='https://x.com/thegallowboob/status/1441670584190992385'><img src="/images/tweeter.png" alt="" className="tweetImg" /></a>
         </motion.div>
