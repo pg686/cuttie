@@ -26,8 +26,8 @@ const Memes = ({memesArr, isReversed}) => {
                    repeatDelay: 0,
                    delay: 0
                 }
-            }} className="box">{meme.type === 'img' ? <img src={`/images/${meme.data}.jpg`} loading='lazy' fetchPriority='high' decoding='async' className='sliderImg'/> : <video autoPlay loop muted>
-          <source src={`/images/${meme.data}.gif.mp4`} type = 'video/mp4'/>
+            }} className="box">{meme.type === 'img' ? <img src={`./cuttie/images/${meme.data}.jpg`} loading='lazy' fetchPriority='high' decoding='async' className='sliderImg'/> : <video autoPlay loop muted>
+          <source src={`./cuttie/images/${meme.data}.gif.mp4`} type = 'video/mp4'/>
           </video>}</motion.div>)}
 
         </div>

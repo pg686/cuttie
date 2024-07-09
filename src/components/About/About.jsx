@@ -32,7 +32,7 @@ const About = () => {
   return (
         <div className="about"> 
          <motion.div  viewport={ { once: true }} variants={window.innerWidth <= 1100 ? mobileButtonVariantLeft : pcButtonVariantLeft} initial="hidden" whileInView="visible" className="tweetPost">
-         <a href='https://x.com/thegallowboob/status/1441670584190992385'><img src="/images/tweeter.png" alt="" className="tweetImg" /></a>
+         <a href='https://x.com/thegallowboob/status/1441670584190992385'><img src="./cuttie/images/tweeter.png" alt="" className="tweetImg" /></a>
         </motion.div>
         <motion.div  viewport={ { once: true }}  variants={window.innerWidth <= 1100 ? mobileButtonVariantRight : pcButtonVariantRight} initial="hidden" whileInView="visible" className='aboutContainer'>
         <div className='aboutSection'>
@@ -41,7 +41,7 @@ const About = () => {
         <p className='secondLine'>Meet Ugli, the dog that will steal your wife, eat your kids, and proceed to father superior kids while you thank him along the way.</p>
         <p className='thirdLine'>Rumor has it if you stare too long at this dog an orphan dies and Bruno Mars writes a new song.  Not sure which is worse.</p>
         <div className='testimonials'>
-          <div className="testimonialWrapper"><div className='testimonial'> <img src="/images/andrew.jpg" alt="" className="testimonailImg" />"I once saw this dog punch a grizzly bear in the balls while humping Carmen Electra"</div><div className='testimonialAuthor'>- Andrew Tate</div></div>
+          <div className="testimonialWrapper"><div className='testimonial'> <img src="./cuttie/images/andrew.jpg" alt="" className="testimonailImg" />"I once saw this dog punch a grizzly bear in the balls while humping Carmen Electra"</div><div className='testimonialAuthor'>- Andrew Tate</div></div>
         </div>
         </div>
         </div>

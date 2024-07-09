@@ -16,7 +16,7 @@ transition={{ duration: 1, delay: 0 }}>Tokenomics</motion.h2>
                  viewport={ { once: true }}
 whileInView={{ opacity: 1,  scale: [1,1.1,1]}}   
 transition={{ duration: 1, delay: 0.1 }}>
-            <img src="/images/ugliDog.png" className="tokenomicsImg"  />
+            <img src="./cuttie/images/ugliDog.png" className="tokenomicsImg"  />
             </motion.div> 
             <div className="tokenomicsInfo">
                 <motion.h3 initial={{ opacity: 0, y: -200}}
@@ -36,7 +36,7 @@ transition={{ duration: 1, delay: 0.3 }}>1 000 000 000</motion.h3>
                  viewport={ { once: true }}
 whileInView={{ opacity: 1,  scale: [1,1.1,1]}}   
 transition={{ duration: 1, delay: 0.1 }}>
-            <img src="/images/ugliDog.png" className="tokenomicsImg"  /> 
+            <img src="./cuttie/images/ugliDog.png" className="tokenomicsImg"  /> 
             </motion.div>
             <div className="tokenomicsInfo">
                 <motion.h3 initial={{ opacity: 0, y: -200}}
@@ -56,7 +56,7 @@ transition={{ duration: 1, delay: 0.3 }}>100%</motion.h3>
                  viewport={ { once: true }}
 whileInView={{ opacity: 1,  scale: [1,1.1,1]}}   
 transition={{ duration: 1, delay: 0.1 }}>
-          <motion.img   src="/images/ugliDog.png" className="tokenomicsImg"  /> 
+          <motion.img   src="./cuttie/images/ugliDog.png" className="tokenomicsImg"  /> 
       </motion.div>
           
             <div className="tokenomicsInfo">
