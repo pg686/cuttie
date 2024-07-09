@@ -12,19 +12,19 @@ function App({url}) {
   useScript(url);
   return (
     <div className="main">
-          <img src="/images/background.png" className='imgBackground'/>
+          <img src="images/background.png" className='imgBackground'/>
           <canvas id='canvas' />
           <div className="ugliObjectsWrapper">
-               <img src="/images/logo.png" alt="" className="ugliObjectImg" />
-               <img src="/images/logo.png" alt="" className="ugliObjectImg" />
-               <img src="/images/logo.png" alt="" className="ugliObjectImg" />
-               <img src="/images/logo.png" alt="" className="ugliObjectImg" />
-               <img src="/images/logo.png" alt="" className="ugliObjectImg" />
-               <img src="/images/logo.png" alt="" className="ugliObjectImg" />
-               <img src="/images/logo.png" alt="" className="ugliObjectImg" />
-               <img src="/images/logo.png" alt="" className="ugliObjectImg" />
-               <img src="/images/logo.png" alt="" className="ugliObjectImg" />
-               <img src="/images/logo.png" alt="" className="ugliObjectImg" />
+               <img src="images/logo.png" alt="" className="ugliObjectImg" />
+               <img src="images/logo.png" alt="" className="ugliObjectImg" />
+               <img src="images/logo.png" alt="" className="ugliObjectImg" />
+               <img src="images/logo.png" alt="" className="ugliObjectImg" />
+               <img src="images/logo.png" alt="" className="ugliObjectImg" />
+               <img src="images/logo.png" alt="" className="ugliObjectImg" />
+               <img src="images/logo.png" alt="" className="ugliObjectImg" />
+               <img src="images/logo.png" alt="" className="ugliObjectImg" />
+               <img src="images/logo.png" alt="" className="ugliObjectImg" />
+               <img src="images/logo.png" alt="" className="ugliObjectImg" />
             </div>
           <div className="content">
           <div className='backgroundWrapper'>
