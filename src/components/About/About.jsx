@@ -42,7 +42,7 @@ const About = () => {
         <p className='thirdLine'>Rumor has it if you stare too long at this dog an orphan dies and Bruno Mars writes a new song.  Not sure which is worse.</p>
         <div className='testimonials'>
           <div className="testimonialWrapper"><div className='testimonial'> <img src="https://pg686.github.io/cuttie/images/andrew.jpg" alt="" className="testimonailImg" />"I once saw this dog punch a grizzly bear in the balls while humping Megan Fox"</div><div className='testimonialAuthor'>- Andrew Tate</div></div>
-
+          <div className="testimonialWrapper"><div className='testimonial'> <img src="https://pg686.github.io/cuttie/images/grandma.jpg" alt="" className="testimonailImg" />"Send this shit!"</div><div className='testimonialAuthor'>- Grandma</div></div>
         </div>
         </div>
         </div>
