@@ -1,19 +1,27 @@
 import React from 'react'
-import { useState,useEffect } from "react";
-import { motion, useAnimationControls } from "framer-motion"
+import { motion } from "framer-motion"
 import Socials from '../../elements/Socials/Socials.jsx';
 import Copy from '../../elements/Copy/Copy.jsx';
-import { Tweet } from 'react-tweet'
-const Home = ({wagmi, toggleWagmi}) => {
-    console.log(wagmi, "toggleWagmi")
-    const controls = useAnimationControls()
-
+const Home = () => {
+    const pcButtonVariant =  {
+      hidden: { opacity: 0, y: 450 },
+      visible: {
+        opacity: 1, y: [450,0],    
+        transition:{ type: 'easeIn', duration: 2 }
+      }
+    };
+    const mobileButtonVariant =  {
+      hidden: { opacity: 0, y: 200 },
+      visible: {
+        opacity: 1, y: [200,0],    
+        transition:{ type: 'easeIn', duration: 2 }
+      }
+    }
   return (
     <div className="home">
         <div className="container homeContainer">
           <div>
           <motion.h2 animate={{ 
-            
             y: [0, -20, 0]      
           }}
           transition={{
@@ -22,27 +30,13 @@ const Home = ({wagmi, toggleWagmi}) => {
             repeat: Infinity,   
             repeatDelay: 0        
           }}>$UGLI</motion.h2>
- 
           </div>
         <div className='wojakSection'>
-         <motion.span className="homeImgSpan"  
-          animate={controls}
-          whileInView={{
-            rotate: [0, 5, -5, 5, 0],
-                     rotateY: 360,
-                     y: [0,-5,0],
-                     transition: {
-                         duration: 1,
-                         ease: "easeInOut",
-                         delay: 0
-                     }}}
-     > <img src="https://pg686.github.io/cuttie/images/ugliDog.png" className="homeImg"   /></motion.span>
-
+         <motion.span className="homeImgSpan" viewport={ { once: true }} variants={window.innerHeight <= 700 ? mobileButtonVariant : pcButtonVariant} initial="hidden" whileInView="visible"> <img src="https://pg686.github.io/cuttie/images/ugliDog.png" className="homeImg"/></motion.span>
         </div>
         <div className='homeInfo'>       
         <Copy />
-           
-              <Socials />
+        <Socials />
         </div>
         </div>
         </div>
