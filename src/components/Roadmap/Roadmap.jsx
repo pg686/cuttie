@@ -18,7 +18,7 @@ transition={{ duration: 1, delay: 0 }} className="roadMapItem">
 1
             </div>
             <div className="roadmapInfo">
-Slay the jeets
+Launch
             </div>
         </motion.div>
 
@@ -30,7 +30,7 @@ transition={{ duration: 1, delay: 1 }} className="roadMapItem">
 2
             </div>
             <div className="roadmapInfo">
-Slay the jeets 
+Kill the jeets 
             </div>
         </motion.div>
         <motion.div initial={{ scale: 1}}
