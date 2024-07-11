@@ -10,16 +10,13 @@
     
 }
 
-.secondLine {
-    font-weight: bold;
+.secondLine,
+.thirdLine {
+    font-family: "Freckle Face", system-ui;
     font-size: 20px;
     text-shadow: 1px 1px 2px black;
    }
-.thirdLine {
-    font-weight: bold;
-    font-size: 20px;
-    text-shadow: 1px 1px 2px black;
-}
+
 
 .tweetImg {
     box-shadow: 9px 9px 5px 0px rgba(0,0,0,0.49);
@@ -53,6 +50,11 @@
     .testimonial {
         flex-wrap: wrap !important;
     }
+}
+.secondLine, 
+.thirdLine {
+    font-family: "Freckle Face", system-ui !important;
+
 }
 .aboutSection {
     position: relative;
@@ -114,8 +116,10 @@ flex-direction: column;
 .testimonials{
     display: flex;
     columns: 2;
+    text-shadow: 1px 1px 2px black;
     flex-direction: column;
     flex-wrap: nowrap;
+    
 justify-content: space-between;
 align-items: center;
 
@@ -133,7 +137,7 @@ text-overflow: ellipsis;
 }
 .testimonailImg {
     height: auto;
-    width: 70px;
+    width: 80px;
     border: 4px solid white;
     border-radius: 100px;
 }
