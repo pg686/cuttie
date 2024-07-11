@@ -3,7 +3,7 @@ import "./Copy.modules.css";
 import { CopyToClipboard } from "react-copy-to-clipboard";
 import { Tooltip as ReactTooltip } from "react-tooltip";
 import { FaRegCopy } from "react-icons/fa";
-import { motion, useAnimation } from "framer-motion";
+import { motion } from "framer-motion";
 
 const Copy = ({ animation }) => {
   const value = "FaPMvVNbD441DXUQ7iqoftnp7VrEw5aQ7o3Xp2xDpump";

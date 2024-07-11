@@ -1,6 +1,6 @@
 import React from "react";
 import { motion } from "framer-motion";
-const Memes = ({ memesArr, isReversed }) => {
+const Memes = ({ memesArr }) => {
   return (
     <div className="memeWrapper">
       <div className="gridContainer">

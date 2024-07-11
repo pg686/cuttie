@@ -19,3 +19,7 @@
 .contactInfo .light {
   margin-bottom: 1rem;
 }
+.contactsWrapper {
+  position: relative;
+  z-index: 10;
+}

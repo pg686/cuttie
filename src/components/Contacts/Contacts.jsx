@@ -7,8 +7,8 @@ const Contact = () => {
       <Socials />
       <div className="contactInfo">
         <hr className="light" />
-        <div>© UGLI / SOL 2024</div>
-        <div>FaPMvVNbD441DXUQ7iqoftnp7VrEw5aQ7o3Xp2xDpump</div>
+        <div className="contactsWrapper">© UGLI / SOL 2024</div>
+        <div className="contactsWrapper">FaPMvVNbD441DXUQ7iqoftnp7VrEw5aQ7o3Xp2xDpump</div>
       </div>
     </div>
   );
