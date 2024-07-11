@@ -1,26 +1,23 @@
-
 [
-    {
-        "title": "Create a Wallet",
-        "svg": "wallet.svg",
-        "description": "Get Phantom wallet from the Google Play Store or App Store. For desktop users, visit phantom.app to download the Google Chrome extension."
-    },
-    {
-        "title": "Get that Solana",
-       "svg": "solana.svg",
-        "description": "You can buy SOL directly from Phantom, transfer from another wallet, bridge from any chain, or purchase on another centralized exchange (such as Binance, KuCoin etc.) and send the coins to your wallet"
-      }
-      
-    , {
-        "title": "Go to Jupiter or Raydium",
-        "svg": "jupiter.svg",
-        "description": "Using Google Chrome or the browser within the Phantom Wallet app, navigate to Jup.ag (Jupiter) and connect to your wallet. Copy the $XXX token address, choose $XXX, and hit the confirm button in Jupiter"
-    }
-    , {
-        "title": "Swap",
-        "svg": "swap.svg",
-        "description": "Swap your SOL for $XXX and come vibe with frens",
-        "hidden": "navigate to Jup.ag (Jupiter) and connect to your wallet. Copy the $XXX token address, choose $XXX, and hit the confirm button in Jupiter"
-    }
-
+  {
+    "title": "Create a Wallet",
+    "svg": "wallet.svg",
+    "description": "Get Phantom wallet from the Google Play Store or App Store. For desktop users, visit phantom.app to download the Google Chrome extension."
+  },
+  {
+    "title": "Get that Solana",
+    "svg": "solana.svg",
+    "description": "You can buy SOL directly from Phantom, transfer from another wallet, bridge from any chain, or purchase on another centralized exchange (such as Binance, KuCoin etc.) and send the coins to your wallet"
+  },
+  {
+    "title": "Go to Jupiter or Raydium",
+    "svg": "jupiter.svg",
+    "description": "Using Google Chrome or the browser within the Phantom Wallet app, navigate to Jup.ag (Jupiter) and connect to your wallet. Copy the $XXX token address, choose $XXX, and hit the confirm button in Jupiter"
+  },
+  {
+    "title": "Swap",
+    "svg": "swap.svg",
+    "description": "Swap your SOL for $XXX and come vibe with frens",
+    "hidden": "navigate to Jup.ag (Jupiter) and connect to your wallet. Copy the $XXX token address, choose $XXX, and hit the confirm button in Jupiter"
+  }
 ]

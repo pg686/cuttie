@@ -1,21 +1,21 @@
 .contact {
-    color: white;
-    padding: 60px 12%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
+  color: white;
+  padding: 60px 12%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
 }
 .contactInfo {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-    flex-direction: column;
-    font-family: "Ubuntu Mono", monospace;
-    word-break: break-all;
-    flex-wrap: wrap;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  flex-direction: column;
+  font-family: "Ubuntu Mono", monospace;
+  word-break: break-all;
+  flex-wrap: wrap;
 }
 .contactInfo .light {
-    margin-bottom: 1rem;
+  margin-bottom: 1rem;
 }

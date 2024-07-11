@@ -1,6 +1,6 @@
-import React from 'react';
-import './Card.modules.css';
-import { motion } from "framer-motion"; 
+import React from "react";
+import "./Card.modules.css";
+import { motion } from "framer-motion";
 
 const splitStringUsingRegex = (str) => {
   const characters = [];
@@ -14,32 +14,39 @@ const splitStringUsingRegex = (str) => {
 
 const charVariants = {
   hidden: {
-    opacity: 0
+    opacity: 0,
   },
   visible: {
-    opacity: 1
-  }
+    opacity: 1,
+  },
 };
 
 const Card = ({ img, title, description, variant }) => {
   return (
-    <motion.div className="stepItem"
+    <motion.div
+      className="stepItem"
       variants={variant}
       initial="hidden"
-      whileInView="visible">
-        <div className="stepImage">  <img src={`/images/${img}`} className="stepImg"/></div>
-        <div className="stepContent">
-          <h3 className="stepTitle">
-            {title}
-          </h3>
-          <p>
-            {splitStringUsingRegex(description).map((char, index) => (
-              <span  variants={charVariants} key={`${char}-${index}`} transition={{ duration:  1}}>
-                {char}
-              </span>
-            ))}
-          </p>
-        </div>
+      whileInView="visible"
+    >
+      <div className="stepImage">
+        {" "}
+        <img src={`/images/${img}`} className="stepImg" />
+      </div>
+      <div className="stepContent">
+        <h3 className="stepTitle">{title}</h3>
+        <p>
+          {splitStringUsingRegex(description).map((char, index) => (
+            <span
+              variants={charVariants}
+              key={`${char}-${index}`}
+              transition={{ duration: 1 }}
+            >
+              {char}
+            </span>
+          ))}
+        </p>
+      </div>
     </motion.div>
   );
 };

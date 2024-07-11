@@ -1,55 +1,53 @@
 .tokenomics {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    padding-top: 5rem;
-    position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 5rem;
+  position: relative;
 }
 
- .tokenomicsItems {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-    flex-wrap: nowrap;
-    flex: 1 1 auto;
+.tokenomicsItems {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: nowrap;
+  flex: 1 1 auto;
 }
 @media (max-width: 600px) {
-
-    .tokenomicsItems {
-       flex-direction: column;
-    }
-    .tokenomicsItem {
-       margin-bottom: 40px;
-    }
-    .tokenomicsInfo h3 {
-       margin-top: 15px
-    }
-    .tokenomics {
-        padding-top: 0;
-        margin: 15px 0;
-    }
-    .tokenomics h2 {
-        font-size: 44px;
-    }
+  .tokenomicsItems {
+    flex-direction: column;
+  }
+  .tokenomicsItem {
+    margin-bottom: 40px;
+  }
+  .tokenomicsInfo h3 {
+    margin-top: 15px;
+  }
+  .tokenomics {
+    padding-top: 0;
+    margin: 15px 0;
+  }
+  .tokenomics h2 {
+    font-size: 44px;
+  }
 }
 
 .tokenomicsImg {
-    width: 50%;
-    position: relative;
-    z-index: 10;
-    border: 8px solid #FF8CD3;
-    border-radius: 200px;
-    box-shadow: 6px 6px 6px 0px rgba(0,0,0,0.3);
+  width: 50%;
+  position: relative;
+  z-index: 10;
+  border: 8px solid #ff8cd3;
+  border-radius: 200px;
+  box-shadow: 6px 6px 6px 0px rgba(0, 0, 0, 0.3);
 }
 
 .tokenomicsItem {
-    
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }
 
 .tokenomics h2 {
@@ -59,13 +57,11 @@
   text-overflow: ellipsis;
   word-break: break-word;
   text-shadow: 1px 1px 2px black;
-    
 }
 
 .tokenomicsInfo h3 {
- position: relative;
- z-index: 10;
- font-size: 30px;
- text-shadow: 1px 1px 2px black;
- 
+  position: relative;
+  z-index: 10;
+  font-size: 30px;
+  text-shadow: 1px 1px 2px black;
 }
