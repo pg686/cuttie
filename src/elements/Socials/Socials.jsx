@@ -11,10 +11,10 @@ const Socials = () => {
           whileInView={{
             opacity: 1,
             scale: 1,
-            transition: { ease: "easeInOut" },
+            transition: { ease: "easeOut" },
           }}
           viewport={{ once: true }}
-          whileHover={{ scale: 0.9, transition: { ease: "easeInOut" } }}
+         
           href="https://x.com/uglisolana"
           className="twitter"
         >
@@ -39,10 +39,10 @@ const Socials = () => {
           whileInView={{
             opacity: 1,
             scale: 1,
-            transition: { ease: "easeInOut" },
+            transition: { ease: "easeOut" },
           }}
           viewport={{ once: true }}
-          whileHover={{ scale: 0.9, transition: { ease: "easeInOut" } }}
+         
           href="https://t.me/uglisolana"
           className="telegram"
         >
@@ -64,10 +64,10 @@ const Socials = () => {
           whileInView={{
             opacity: 1,
             scale: 1,
-            transition: { ease: "easeInOut" },
+            transition: { ease: "easeOut" },
           }}
           viewport={{ once: true }}
-          whileHover={{ scale: 0.9, transition: { ease: "easeInOut" } }}
+         
           href="#"
           className="dextools"
         >
@@ -93,10 +93,10 @@ const Socials = () => {
           whileInView={{
             opacity: 1,
             scale: 1,
-            transition: { ease: "easeInOut" },
+            transition: { ease: "easeOut" },
           }}
           viewport={{ once: true }}
-          whileHover={{ scale: 0.9, transition: { ease: "easeInOut" } }}
+         
           href="#"
           className="dexscreener"
         >
@@ -120,10 +120,10 @@ const Socials = () => {
           whileInView={{
             opacity: 1,
             scale: 1,
-            transition: { ease: "easeInOut" },
+            transition: { ease: "easeOut" },
           }}
           viewport={{ once: true }}
-          whileHover={{ scale: 0.9, transition: { ease: "easeInOut" } }}
+         
           href="https://www.geckoterminal.com/solana/pools/HfGLey7nMZZnvSpBnPU17CMPBZoy6eiseX54FoYwpm8S"
           target="_blank"
           className="gecko"
