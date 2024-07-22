@@ -42,7 +42,7 @@ const Roadmap = () => {
             className="roadMapItem"
           >
             <div className="number">3</div>
-            <div className="roadmapInfo">Slay the jeets</div>
+            <div className="roadmapInfo">Disrupt the meta</div>
           </motion.div>
         </div>
       </div>
