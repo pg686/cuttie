@@ -102,7 +102,7 @@ const Navbar = () => {
         >
           {" "}
           <img
-            src="https://uglisolana.com/cuttie/images/logo.png"
+            src="https://uglisolana.com/images/logo.png"
             className="logo"
           />{" "}
           <span className="logoText"></span>
