@@ -13,58 +13,58 @@ function App({ url }) {
   return (
     <div className="main">
       <img
-        src="https://pg686.github.io/cuttie/images/background.png"
+        src="https://uglisolana.com/cuttie/images/background.png"
         className="imgBackground"
       />
       <canvas id="canvas" />
       <div className="ugliObjectsWrapper">
         <img
-          src="https://pg686.github.io/cuttie/images/logo.png"
+          src="https://uglisolana.com/cuttie/images/logo.png"
           alt=""
           className="ugliObjectImg"
         />
         <img
-          src="https://pg686.github.io/cuttie/images/logo.png"
+          src="https://uglisolana.com/cuttie/images/logo.png"
           alt=""
           className="ugliObjectImg"
         />
         <img
-          src="https://pg686.github.io/cuttie/images/logo.png"
+          src="https://uglisolana.com/cuttie/images/logo.png"
           alt=""
           className="ugliObjectImg"
         />
         <img
-          src="https://pg686.github.io/cuttie/images/logo.png"
+          src="https://uglisolana.com/cuttie/images/logo.png"
           alt=""
           className="ugliObjectImg"
         />
         <img
-          src="https://pg686.github.io/cuttie/images/logo.png"
+          src="https://uglisolana.com/cuttie/images/logo.png"
           alt=""
           className="ugliObjectImg"
         />
         <img
-          src="https://pg686.github.io/cuttie/images/logo.png"
+          src="https://uglisolana.com/cuttie/images/logo.png"
           alt=""
           className="ugliObjectImg"
         />
         <img
-          src="https://pg686.github.io/cuttie/images/logo.png"
+          src="https://uglisolana.com/cuttie/images/logo.png"
           alt=""
           className="ugliObjectImg"
         />
         <img
-          src="https://pg686.github.io/cuttie/images/logo.png"
+          src="https://uglisolana.com/cuttie/images/logo.png"
           alt=""
           className="ugliObjectImg"
         />
         <img
-          src="https://pg686.github.io/cuttie/images/logo.png"
+          src="https://uglisolana.com/cuttie/images/logo.png"
           alt=""
           className="ugliObjectImg"
         />
         <img
-          src="https://pg686.github.io/cuttie/images/logo.png"
+          src="https://uglisolana.com/cuttie/images/logo.png"
           alt=""
           className="ugliObjectImg"
         />

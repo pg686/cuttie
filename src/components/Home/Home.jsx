@@ -49,7 +49,7 @@ const Home = () => {
           >
             {" "}
             <img
-              src="https://pg686.github.io/cuttie/images/ugliDog.png"
+              src="https://uglisolana.com/cuttie/images/ugliDog.png"
               className="homeImg"
             />
           </motion.span>

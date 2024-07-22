@@ -32,7 +32,7 @@ const Memes = ({ memesArr }) => {
           >
             {meme.type === "img" ? (
               <img
-                src={`https://pg686.github.io/cuttie/images/${meme.data}.jpg`}
+                src={`https://uglisolana.com/cuttie/images/${meme.data}.jpg`}
                 loading="lazy"
                 fetchPriority="high"
                 decoding="async"
@@ -41,7 +41,7 @@ const Memes = ({ memesArr }) => {
             ) : (
               <video autoPlay loop muted>
                 <source
-                  src={`https://pg686.github.io/cuttie/images/${meme.data}.gif.mp4`}
+                  src={`https://uglisolana.com/cuttie/images/${meme.data}.gif.mp4`}
                   type="video/mp4"
                 />
               </video>

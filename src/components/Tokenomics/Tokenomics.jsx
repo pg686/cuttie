@@ -22,7 +22,7 @@ const Tokenomics = () => {
               transition={{ duration: 1, delay: 0.1 }}
             >
               <img
-                src="https://pg686.github.io/cuttie/images/ugliDog.png"
+                src="https://uglisolana.com/cuttie/images/ugliDog.png"
                 className="tokenomicsImg"
               />
             </motion.div>
@@ -61,7 +61,7 @@ const Tokenomics = () => {
               transition={{ duration: 1, delay: 0.1 }}
             >
               <img
-                src="https://pg686.github.io/cuttie/images/ugliDog.png"
+                src="https://uglisolana.com/cuttie/images/ugliDog.png"
                 className="tokenomicsImg"
               />
             </motion.div>
@@ -100,7 +100,7 @@ const Tokenomics = () => {
               transition={{ duration: 1, delay: 0.1 }}
             >
               <motion.img
-                src="https://pg686.github.io/cuttie/images/ugliDog.png"
+                src="https://uglisolana.com/cuttie/images/ugliDog.png"
                 className="tokenomicsImg"
               />
             </motion.div>

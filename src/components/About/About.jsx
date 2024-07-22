@@ -48,7 +48,7 @@ const About = () => {
       >
         <a href="https://x.com/thegallowboob/status/1441670584190992385">
           <img
-            src="https://pg686.github.io/cuttie/images/tweeter.png"
+            src="https://uglisolana.com/cuttie/images/tweeter.png"
             alt=""
             className="tweetImg"
           />
@@ -80,7 +80,7 @@ const About = () => {
                 <div className="testimonial">
                   {" "}
                   <img
-                    src="https://pg686.github.io/cuttie/images/andrew.jpg"
+                    src="https://uglisolana.com/cuttie/images/andrew.jpg"
                     alt=""
                     className="testimonailImg"
                   />
@@ -93,7 +93,7 @@ const About = () => {
                 <div className="testimonial">
                   {" "}
                   <img
-                    src="https://pg686.github.io/cuttie/images/grandma.jpg"
+                    src="https://uglisolana.com/cuttie/images/grandma.jpg"
                     alt=""
                     className="testimonailImg"
                   />
