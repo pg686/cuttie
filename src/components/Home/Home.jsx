@@ -4,19 +4,19 @@ import Socials from "../../elements/Socials/Socials.jsx";
 import Copy from "../../elements/Copy/Copy.jsx";
 const Home = () => {
   const pcButtonVariant = {
-    hidden: { opacity: 0, y: 450 },
+    hidden: { opacity: 0.5, y: 450 },
     visible: {
       opacity: 1,
       y: [450, 0],
-      transition: { type: "easeIn", duration: 2 },
+      transition: { type: "easeIn", duration: 1 },
     },
   };
   const mobileButtonVariant = {
-    hidden: { opacity: 0, y: 200 },
+    hidden: { opacity: 0.5,  y: 200 },
     visible: {
       opacity: 1,
       y: [200, 0],
-      transition: { type: "easeIn", duration: 2 },
+      transition: { type: "easeIn", duration: 1 },
     },
   };
   return (
