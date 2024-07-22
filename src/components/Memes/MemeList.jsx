@@ -36,6 +36,10 @@ const MemeList = () => {
           { data: "animation7", type: "gif" },
           { data: "9", type: "img" },
           { data: "10", type: "img" },
+          { data: "11", type: "img" },
+          { data: "12", type: "img" },
+          { data: "13", type: "img" },
+          { data: "14", type: "img" },
           { data: "animation1", type: "gif" },
           { data: "animation2", type: "gif" },
         ]}
