@@ -25,6 +25,8 @@ const MemeList = () => {
           { data: "animation12", type: "gif" },
           { data: "animation13", type: "gif" },
           { data: "4", type: "img" },
+          { data: "animation5", type: "gif" },
+          { data: "5", type: "img" },
           { data: "animation4", type: "gif" },
           { data: "5", type: "img" },
           { data: "6", type: "img" },
