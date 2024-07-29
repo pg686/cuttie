@@ -68,7 +68,7 @@ const Socials = () => {
           }}
           viewport={{ once: true }}
          
-          href="#"
+          href="https://www.dextools.io/app/en/solana/pair-explorer/EbXsWHYoMjUyHFqoWThpYJYXMeghcKG9aEkWi1XVpozE?t=1722286168170"
           className="dextools"
         >
           <svg
@@ -97,7 +97,7 @@ const Socials = () => {
           }}
           viewport={{ once: true }}
          
-          href="#"
+          href="https://dexscreener.com/solana/ebxswhyomjuyhfqowthpyjyxmeghckg9aekwi1xvpoze"
           className="dexscreener"
         >
           <svg

@@ -208,7 +208,7 @@ const Navbar = () => {
         </nav>
         <div className="buySlay">
           <a
-            href="https://pump.fun/FaPMvVNbD441DXUQ7iqoftnp7VrEw5aQ7o3Xp2xDpump"
+            href="https://jup.ag/swap/FaPMvVNbD441DXUQ7iqoftnp7VrEw5aQ7o3Xp2xDpump-SOL"
             className="button"
           >
             Buy $UGLI
