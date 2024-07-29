@@ -66,10 +66,10 @@ const About = () => {
         className="aboutContainer"
       >
         <div className="aboutSection">
-          <motion.h2>About</motion.h2>
+          <motion.h2 className="aboutH2">About</motion.h2>
           <div className="aboutInfo">
             <p className="secondLine">
-              Meet Ugli, the dog that will steal your wife, eat your kids while you thank it along the way.
+              Meet Ugli, the dog that will steal your wife and eat your kids while you thank it along the way.
             </p>
             <p className="thirdLine">
               Rumor has it if you stare too long at this dog an orphan dies and
